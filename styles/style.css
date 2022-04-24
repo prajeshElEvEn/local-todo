@@ -1,0 +1,53 @@
+body {
+  background-color: #272727;
+}
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.head {
+  padding: 1rem 0;
+  background-color: #5111ff;
+  border-radius: 20px;
+  margin: 2rem 0;
+  color: white;
+}
+
+.main {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: rgba(81, 17, 255, 0.466);
+  border-radius: 20px;
+}
+
+.main .input-group {
+  margin: 1rem 0;
+}
+
+.no-tasks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 1rem 0;
+  color: white;
+}
+
+.card {
+  margin: 1rem;
+  width: 30%;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 98vw;
+  }
+  .card {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
