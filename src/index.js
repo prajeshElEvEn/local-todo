@@ -13,8 +13,12 @@ const readTask = () => {
                         <div class="card-body">
                             <h5 class="card-title" id="card-title">${task.title}</h5>
                             <p class="card-text" id="card-text">${task.description}</p>
-                            <a href="#" id=${index} onclick=markAsCompleted(this.id) class="btn btn-primary">Mark as Complete</a>
-                            <a href="#" id=${index} onclick=deleteTask(this.id) class="btn btn-primary">Delete</a>
+                            <a href="#" id=${index} onclick=markAsCompleted(this.id) class="btn btn-primary"><svg width="20" height="20" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m10 15.17 9.192-9.193 1.415 1.414L10 17.998l-6.364-6.364L5.05 10.22 10 15.17Z"></path>
+</svg></a>
+                            <a href="#" id=${index} onclick=deleteTask(this.id) class="btn btn-primary"><svg width="20" height="20" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="M7 4V2h10v2h5v2h-2v15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6H2V4h5ZM6 6v14h12V6H6Zm3 3h2v8H9V9Zm4 0h2v8h-2V9Z"></path>
+</svg></a>
                         </div>
                     </div>
                     `
@@ -34,7 +38,9 @@ const readCompletedTask = () => {
                         <div class="card-body">
                             <h5 class="card-title" id="card-title">${task.title}</h5>
                             <p class="card-text" id="card-text">${task.description}</p>
-                            <a href="#" id=${index} onclick=deleteCompletedTask(this.id) class="btn btn-primary">Delete</a>
+                            <a href="#" id=${index} onclick=deleteCompletedTask(this.id) class="btn btn-primary"><svg width="20" height="20" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="M7 4V2h10v2h5v2h-2v15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6H2V4h5ZM6 6v14h12V6H6Zm3 3h2v8H9V9Zm4 0h2v8h-2V9Z"></path>
+</svg></a>
                         </div>
                     </div>
                     `
